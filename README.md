@@ -40,8 +40,6 @@ The primary dataset is from the **World Happiness Report**, a collaborative proj
 
 Happiness is more than a subjective feeling—it has a profound impact on health, social connection, and well-being. Our analysis highlights significant factors influencing happiness globally, offering insights that may help individuals make life decisions to enhance their own happiness.
 
-> **Note:** Due to the global COVID-19 pandemic, data from 2022 has been excluded from the analysis as it drastically differs from other years.
-
 ---
 
 ### Libraries Used
