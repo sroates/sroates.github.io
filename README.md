@@ -3,7 +3,7 @@
 Collaborators: Grace Koerner, Samuel Oates, Sudharma Bhat
 
 #Introduction
-[View the report here: ]((https://sroates.github.io/)
+View the report here: (https://sroates.github.io/)
 
 
 The purpose of this tutorial is to walk you through the data science pipeline, using happiness... We will be investigating the various factors that contribute to happiness around the world, and trying to answer the long-asked question: can money buy happiness? It seems that those with money preech a low-income lifestyle, and those lacking money long for the material goods. We hope to analyze and interpret what affects happiness, specifically worldwide, the most...
