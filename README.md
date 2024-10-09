@@ -1,22 +1,57 @@
 # Does Money Buy Happiness?
-## Analyzing the most influential factors in determining happiness.
-Collaborators: Grace Koerner, Samuel Oates, Sudharma Bhat
 
-# Introduction
-View the report here: (https://sroates.github.io/)
+## Analyzing the Most Influential Factors in Determining Happiness
 
+**Collaborators:** Grace Koerner, Samuel Oates, Sudharma Bhat  
+**View the full report:** [Report Link](https://sroates.github.io/)
 
-The purpose of this tutorial is to walk you through the data science pipeline, using happiness... We will be investigating the various factors that contribute to happiness around the world, and trying to answer the long-asked question: can money buy happiness? It seems that those with money preech a low-income lifestyle, and those lacking money long for the material goods. We hope to analyze and interpret what affects happiness, specifically worldwide, the most...
+---
 
-We will begin by procurring our data from different sources, mainly csv files and through data scraping, and cleaning that data. After we've prepared our data, we'll perform exploratory data analysis so we can observe the relationships between various factors and happiness. Finally, we will train different machine learning models to our data to gather valuable insights and to hopefully understand what contributes to happiness on a worldwide scale.
+### Project Overview
 
-Most of the data used in this project comes from The World Happiness Report, which is a collaborative effort involving Gallup, the Oxford Wellbeing Research Centre, the UN Sustainable Development Solutions Network, and the WHR Editorial Board. The report uses data from the Gallup World Poll to rank countries. During this poll they ask participants to rank different aspects of their lives from 0 to 10, with 0 being the absolute worst and 10 being the absolute best. The report highlights six variables influencing happiness: GDP per capita, social support, healthy life expectancy, freedom, generosity, and corruption.
+This project explores the key factors that contribute to happiness on a global scale. By leveraging data from the **World Happiness Report** and performing a full data science pipeline—data collection, processing, exploratory analysis, and machine learning—we aim to address the long-debated question: _"Does money buy happiness?"_
 
-Happiness is more than just a simple feel-good emotion. It’s a strong force that has significant impacts on health and well-being - it's been proven to lead to better relationships, increase social connection and contribution to the lives of others, and contribute to healthier physical wellbeing. Happiness helps keep you alive! It (obviously) lowers levels of stress, anxiety, depression, and influences those around you in the same way. It cannot be 'stressed' enough how important being happy is!
+### Data Science Pipeline
 
-The goal of our project is to raise awareness to the differences in happiness levels across the world, and why exactly that is. This may help you, the reader, make decisions later on about your own life and how to increase your happiness - whether that be changing your profession all the way to moving across the country, that's up for your own interpretation.
+1. **Data Collection:**  
+   Data was procured from various sources, including CSV files and web scraping using `BeautifulSoup` and `requests`.
 
-One final remark to note would be a constraint this project faces. COVID during 2022 had drastically different measures than all other years for most countries. Considering this year was two years deep into the pandemic, long enough for everyone to feel the effects of the sickness, quarantine, and other negative effects of experiencing a global pandemic, it has been exempted from our analysis today.
+2. **Data Processing:**  
+   We processed the data using `pandas` and `numpy`, cleaning and transforming it for analysis.
 
-World happiness report main page: https://worldhappiness.report/
+3. **Exploratory Data Analysis & Visualization:**  
+   Using `seaborn` and `matplotlib`, we explored the relationships between happiness and variables like GDP per capita, social support, and life expectancy.
 
+4. **Machine Learning & Analysis:**  
+   We employed models such as `RandomForestRegressor` and `LinearRegression` to predict happiness scores based on different factors. `PCA` and `StandardScaler` were used for dimensionality reduction and normalization. The performance of these models was evaluated using metrics like `mean_squared_error`.
+
+### Data Sources
+
+The primary dataset is from the **World Happiness Report**, a collaborative project involving Gallup, the UN Sustainable Development Solutions Network, and other global institutions. It ranks countries based on variables such as:
+
+- GDP per capita
+- Social support
+- Healthy life expectancy
+- Freedom
+- Generosity
+- Perceptions of corruption
+
+### Key Insights
+
+Happiness is more than a subjective feeling—it has a profound impact on health, social connection, and well-being. Our analysis highlights significant factors influencing happiness globally, offering insights that may help individuals make life decisions to enhance their own happiness.
+
+> **Note:** Due to the global COVID-19 pandemic, data from 2022 has been excluded from the analysis as it drastically differs from other years.
+
+---
+
+### Libraries Used
+
+- **pandas**: Data manipulation and analysis
+- **numpy**: Numerical computations
+- **seaborn & matplotlib**: Data visualization
+- **BeautifulSoup & requests**: Web scraping
+- **sklearn (RandomForestRegressor, LinearRegression, PCA, StandardScaler)**: Machine learning models and data preprocessing
+
+### Conclusion
+
+By analyzing worldwide happiness data, we hope to provide valuable insights into what truly contributes to happiness. Our findings can help policymakers and individuals alike better understand the global happiness landscape.
