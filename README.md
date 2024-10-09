@@ -2,7 +2,7 @@
 ## Analyzing the most influential factors in determining happiness.
 Collaborators: Grace Koerner, Samuel Oates, Sudharma Bhat
 
-#Introduction
+# Introduction
 View the report here: (https://sroates.github.io/)
 
 
